@@ -7,11 +7,11 @@ require "voluntary_text_creation/version"
 Gem::Specification.new do |s|
   s.name        = "voluntary_text_creation"
   s.version     = VoluntaryTextCreation::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of VoluntaryTextCreation."
-  s.description = "TODO: Description of VoluntaryTextCreation."
+  s.authors     = ["Mathias Gawlista"]
+  s.email       = ["gawlista@gmail.com"]
+  s.homepage    = "http://github.com/Applicat/voluntary_text_creation"
+  s.summary     = "Crowdsourcing product engine about text creation workflow based on crowdsourcing engine voluntary"
+  s.description = "Crowdsourcing product engine about text creation workflow based on crowdsourcing engine voluntary"
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
 
