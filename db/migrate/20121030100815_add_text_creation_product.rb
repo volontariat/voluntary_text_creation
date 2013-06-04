@@ -4,7 +4,7 @@ class AddTextCreationProduct < ActiveRecord::Migration
     
     product = Product.new(name: 'Text Creation', text: 'Dummy', area_ids: [area.id])
     product.user_id = User.where(name: 'Master').first.id
-    product.save!
+    product.save
   end
 
   def down
