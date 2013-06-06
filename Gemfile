@@ -8,8 +8,6 @@ gemspec
 # jquery-rails is used by the dummy application
 gem "jquery-rails"
 
-gem 'voluntary'
-
 gem "rack-cors", "~> 0.2.4", :require => "rack/cors"
 gem "thin", "~> 1.3.1", :require => false
 gem "settingslogic", :git => "https://github.com/binarylogic/settingslogic.git"
