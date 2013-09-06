@@ -41,8 +41,8 @@ GIT
 PATH
   remote: .
   specs:
-    voluntary_text_creation (0.0.3)
-      voluntary (= 0.1.0.rc2)
+    voluntary_text_creation (0.0.4)
+      voluntary (~> 0)
 
 GEM
   remote: http://rubygems.org/

@@ -1,5 +1,9 @@
 ## unreleased ##
 
+## 0.0.4 (July 31, 2013) ##
+
+*   Set voluntary to ~> 0
+
 ## 0.0.3 (July 31, 2013) ##
 
 *   Set voluntary to 0.1.0.rc2
