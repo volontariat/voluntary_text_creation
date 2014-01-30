@@ -1,6 +1,6 @@
 development:
  adapter: postgresql
- database: volontariat_development
+ database: voluntary_text_creation_development
  encoding: unicode
  username: root
  password:
@@ -9,7 +9,7 @@ development:
 test: &TEST
  adapter: postgresql
  encoding: unicode
- database: volontariat_test
+ database: voluntary_text_creation_test
  pool: 5
  username: root
  password:
@@ -17,11 +17,11 @@ test: &TEST
 production:
   adapter: postgresql
   encoding: unicode
-  database: volontariat_production
+  database: voluntary_text_creation_production
   encoding: utf8
   pool: 5
   host: localhost
-  username: volontariat
+  username: voluntary_text_creation
   password:
   
 cucumber:

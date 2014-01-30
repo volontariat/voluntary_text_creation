@@ -93,7 +93,7 @@ ActiveRecord::Schema.define(:version => 20130606230133) do
   add_index "friendly_id_slugs", ["sluggable_type"], :name => "index_friendly_id_slugs_on_sluggable_type"
 
   create_table "mongo_db_documents", :force => true do |t|
-    t.integer  "mongo_db_object_id"
+    t.string  "mongo_db_object_id"
     t.string   "klass_name"
     t.string   "name"
     t.string   "slug"
