@@ -53,13 +53,11 @@ group :development, :test do
   gem 'ruby-debug', '~> 0.10.4', platforms: :mri_18
 end
 
-group :assets do
-  gem 'therubyracer', '~> 0.12.0', platforms: :ruby
-  
-  # asset_sync is required as needed by application.rb
-  gem 'asset_sync', '~> 0.5.0', require: nil
-end
- 
+gem 'therubyracer', '~> 0.12.0', platforms: :ruby
+
+# asset_sync is required as needed by application.rb
+gem 'asset_sync', '~> 0.5.0', require: nil
+
 group :production do
   # dependency nokogiri is incompatible with cucumber-rails
   #  gem 'rails_admin', git: 'git://github.com/halida/rails_admin.git'
