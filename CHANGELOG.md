@@ -1,5 +1,9 @@
 ## unreleased ##
 
+## 0.1.0 (March 22, 2014) ##
+
+*   Rails 4 upgrade
+
 ## 0.0.4 (July 31, 2013) ##
 
 *   Set voluntary to ~> 0
