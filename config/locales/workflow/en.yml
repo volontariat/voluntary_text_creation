@@ -1,0 +1,7 @@
+en:
+  
+  workflow:        
+    user:
+      products:
+        text_creation:
+          title: Text Creation
