@@ -11,6 +11,7 @@ capybara-*.html
 /tmp/*
 /db/*.sqlite3
 /db/structure.sql
+/pkg
 /public/system/*
 /coverage/
 /spec/tmp/*
