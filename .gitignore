@@ -24,4 +24,5 @@ pickle-email-*.html
 /dummy/coverage
 /dummy/db/structure.sql
 /dummy/spec/tmp/*
+/dummy/tmp
 /dummy/log/*
