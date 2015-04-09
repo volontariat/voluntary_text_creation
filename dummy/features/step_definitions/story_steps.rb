@@ -23,7 +23,10 @@ Given /^a story named "([^\"]*)"$/ do |name|
 end
 
 Given /^a story without tasks named "([^\"]*)"$/ do |name|
-  new_story(name, factory: :story_without_tasks)
+  new_story(
+    name, factory: :text_creation_story, 
+    attributes: { task_factory: nil, event: 'initialization', state_before: 'new', state: 'initialized' }
+  )
 end
 
 Then /^I should see the following stories:$/ do |expected_table|
