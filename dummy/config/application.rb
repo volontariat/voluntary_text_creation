@@ -5,10 +5,9 @@ require "active_record/railtie"
 require "action_controller/railtie"
 require "action_mailer/railtie"
 require "sprockets/railtie"
-# require "rails/test_unit/railtie"
 
-Bundler.require
-#require File.expand_path('../../../lib/voluntary_text_creation', __FILE__)
+Bundler.require(*Rails.groups)
+
 require 'voluntary_text_creation'
 
 module Dummy
@@ -57,6 +56,9 @@ module Dummy
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    
+    # Do not swallow errors in after_commit/after_rollback callbacks.
+    config.active_record.raise_in_transactional_callbacks = true
   end
 end
 

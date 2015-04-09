@@ -9,13 +9,13 @@ Gem::Specification.new do |s|
   s.version     = VoluntaryTextCreation::VERSION
   s.authors     = ["Mathias Gawlista"]
   s.email       = ["gawlista@gmail.com"]
-  s.homepage    = "http://github.com/Applicat/voluntary_text_creation"
-  s.summary     = "Crowdsourcing product engine about text creation workflow based on crowdsourcing engine voluntary"
-  s.description = "Crowdsourcing product engine about text creation workflow based on crowdsourcing engine voluntary"
+  s.homepage    = "http://GitHub.com/volontariat/voluntary_text_creation"
+  s.summary     = "Text creation plugin for Crowdsourcing management system voluntary."
+  s.description = "#Crowdsourcing system voluntary plugin: http://bit.ly/vtc-0-2-0"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.md"]
 
-  s.add_dependency 'voluntary', '~> 0.2.4'
+  s.add_dependency 'voluntary', '~> 0.3.0'
 
   # group :development
   s.add_development_dependency 'letter_opener', '~> 1.0.0'
@@ -30,7 +30,6 @@ Gem::Specification.new do |s|
   # group :test
   s.add_development_dependency 'capybara', '~> 1.1.2'
   s.add_development_dependency 'capybara-webkit', '~> 0.13.0'
-  s.add_development_dependency 'cucumber-rails', '~> 1.3.0'
   s.add_development_dependency 'cucumber-rails-training-wheels', '~> 1.0.0'
   s.add_development_dependency 'timecop', '~> 0.6.1'
   s.add_development_dependency 'factory_girl_rails', '~> 1.7.0'
