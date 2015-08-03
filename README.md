@@ -21,7 +21,7 @@ Run this in your console:
 Run this in your console:
 
 ```bash
-  rake voluntary_text_creation:install:migrations  
+  rake railties:install:migrations
 ```
   
 ## License 
