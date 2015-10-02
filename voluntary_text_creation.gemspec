@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'voluntary', '~> 0.5'
 
   # group :development
+  
   s.add_development_dependency 'letter_opener', '~> 1.0.0'
 
   # for tracing AR object instantiation and memory usage per request
@@ -28,13 +29,12 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec-rails', '~> 2.0' 
   
   # group :test
-  s.add_development_dependency 'capybara', '~> 1.1.2'
-  s.add_development_dependency 'capybara-webkit', '~> 0.13.0'
+  s.add_development_dependency 'capybara', '~> 2.4.4'
+  s.add_development_dependency 'capybara-webkit', '~> 1.6.0'
   s.add_development_dependency 'cucumber-rails-training-wheels', '~> 1.0.0'
   s.add_development_dependency 'timecop', '~> 0.6.1'
   s.add_development_dependency 'factory_girl_rails', '~> 1.7.0'
   s.add_development_dependency 'fixture_builder', '~> 0.3.3'
-  s.add_development_dependency 'fuubar', '~> 1.1.0'
   s.add_development_dependency 'selenium-webdriver', '~> 2.22.1'
   s.add_development_dependency 'spork', '~> 1.0rc2'
   s.add_development_dependency 'guard-rspec', '~> 3.0.2'
@@ -44,4 +44,5 @@ Gem::Specification.new do |s|
 
   # group :cucumber, :test
   s.add_development_dependency 'database_cleaner', '~> 0.7.1'
+  s.add_development_dependency 'test-unit', '~> 3.0.9'
 end

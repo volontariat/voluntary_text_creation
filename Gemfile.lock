@@ -404,7 +404,7 @@ GEM
       rack (~> 1.0)
     omniauth-facebook (2.0.1)
       omniauth-oauth2 (~> 1.2)
-    omniauth-google-oauth2 (0.2.7)
+    omniauth-google-oauth2 (0.2.8)
       addressable (~> 2.3)
       jwt (~> 1.0)
       multi_json (~> 1.3)
