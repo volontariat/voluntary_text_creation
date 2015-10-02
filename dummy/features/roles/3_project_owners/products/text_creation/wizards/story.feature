@@ -21,7 +21,7 @@ Feature: Create a story
     And I press "Create Story"
     And I fill in the 1st field of "Name" with "Task 1"
     #And I fill in the 1st field of "Keywords" with "Keyword 1"
-    And I press "Update Tasks"
+    And I press the first update tasks button
     Then I should see "Task 1"
     #And I should see "Keyword 1"
     And I should see "Actions"

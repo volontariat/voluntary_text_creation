@@ -34,3 +34,7 @@ Then /^I should see the following stories:$/ do |expected_table|
   table = rows.map { |r| r.all('th,td').map { |c| c.text.strip } }
   expected_table.diff!(table)
 end
+
+When /^(?:|I )press the first update tasks button$/ do
+  find(:xpath, '/html/body/div[2]/div/div/div/div[2]/div[2]/form[2]/div[1]/button').click
+end
